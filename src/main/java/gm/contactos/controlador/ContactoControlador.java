@@ -30,6 +30,6 @@ public class ContactoControlador {
     @GetMapping("/agregar")
     public String mostrarAgregar(){
         logger.info("Ha entrado en agregar - Contacto Controlador");
-        return "index"; // agregar.html
+        return "agregar"; // agregar.html
     }
 }
