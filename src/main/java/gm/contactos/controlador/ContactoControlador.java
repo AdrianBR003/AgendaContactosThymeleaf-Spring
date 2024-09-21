@@ -27,4 +27,9 @@ public class ContactoControlador {
         return "index"; // index.html
     }
 
+    @GetMapping("/agregar")
+    public String mostrarAgregar(){
+        logger.info("Ha entrado en agregar - Contacto Controlador");
+        return "index"; // agregar.html
+    }
 }

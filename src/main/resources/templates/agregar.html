@@ -1,0 +1,20 @@
+<!doctype html>
+<!-- xmlns:th -> Thymeleaf -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragmentos/cabecero::cabecero-seccion(titulo='Agregar')}">
+</head>
+<body>
+
+<!-- Menu Navegacion-->
+<div th:replace="~{fragmentos/navegacion::navegacion-seccion}"/>
+
+<div class="container">
+    <div class="container text-center" style="margin:30px">
+        <h3>Agregar Contacto</h3>
+    </div>
+</div>
+
+<!-- Fragmento Thymeleaf Pie Pagina-->
+<div th:replace="~{fragmentos/pie-pagina::pie-pagina-seccion}"/>
+</body>
+</html>
